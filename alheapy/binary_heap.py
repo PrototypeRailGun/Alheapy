@@ -2,9 +2,9 @@
 """Бинарная куча
 
 Инициализация и параметры:
-BinaryHeap(values=v, _compn=compfunc)
-MinBinaryHeap(values=v, _compn=compfunc)
-MaxBinaryHeap(values=v, _compn=compfunc)
+BinaryHeap(values=v, comp=compfunc)
+MinBinaryHeap(values=v, comp=compfunc)
+MaxBinaryHeap(values=v, comp=compfunc)
 
 # Нумерация элементов начинается с 0
 # Для элемента p потомками являются 2*p + 1, 2*p + 2
