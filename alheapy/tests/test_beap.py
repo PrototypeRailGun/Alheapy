@@ -256,11 +256,5 @@ class TestMaxBeap(unittest.TestCase):
         self.assertEqual(get_inversions(beap), [])
 
 
-data1 = list(range(-100, 100)) * 200
-shuffle(data1)
-data2 = list(range(-100, 100)) * 200
-shuffle(data2)
-
-
 if __name__ == "__main__":
     unittest.main()
